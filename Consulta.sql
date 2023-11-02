@@ -25,3 +25,11 @@ lastname VARCHAR(128),
   salary INT,
   city VARCHAR(128)
 );
+
+CREATE TABLE Customers (
+id INT,
+firstname VARCHAR(128) NOT NULL,
+lastname VARCHAR(128),
+salary INT DEFAULT 0,
+city VARCHAR(128)
+); 
