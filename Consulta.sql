@@ -17,3 +17,11 @@ SELECT department, AVG(salary) AS average
 FROM staff
 GROUP BY department
 ORDER BY average DESC;
+
+CREATE TABLE Customers (
+  id INT,
+  firstname VARCHAR(128),
+lastname VARCHAR(128),
+  salary INT,
+  city VARCHAR(128)
+);
